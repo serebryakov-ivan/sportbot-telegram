@@ -38,6 +38,6 @@ You can expand the functionality:
 - Add a rating system
 - Integrate payments for participation
 
-## 📄 Лицензия
+## 📄 License
 
 MIT License - free to use and modify, but please indicate the original authorship!
