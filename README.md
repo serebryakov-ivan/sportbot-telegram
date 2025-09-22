@@ -1,43 +1,54 @@
-# sportbot-telegram
-Skeleton of a telegram bot for sports communities
+# 🏃‍♂️ Sport Event Telegram Bot Skeleton
 
-## 🚀 Opportunities
+A skeleton for Telegram bots for organizing sports events with multi-language support.
+
+## 🚀 Features
 
 - User registration
-- Viewing events
-- Registration for the competition
+- Event browsing
+- Competition registration
 - Participant management
-- Easy navigation
+- Simple navigation
+- **Multi-language support (English/Russian)**
 
 ## 📋 Installation
 
 1. Create a MySQL database
-2. Perform SQL migrations from `database/migrations/`
-3. Set up `config/config.php `
-4. Upload files to the server from HTTPS
-5. Open `webhooks/webhook.php` for installing a webhook
+2. Run SQL migrations from `database/migrations/`
+3. Configure `config/config.php`
+4. Upload files to a server with HTTPS
+5. Open `webhooks/webhook.php` to set the webhook
 
-## 🛠️ Customization
+## 🛠️ Configuration
 
 1. Get a token from @BotFather on Telegram
-2. Specify the token in `config/config.php `
-3. Configure the database settings
+2. Set the token in `config/config.php`
+3. Configure database parameters
+
+## 🌍 Multi-language Support
+
+The bot supports two languages:
+- English (default) 🇬🇧
+- Russian 🇷🇺
+
+Users can change language through the menu. All interface elements are translatable.
 
 ## 📁 Structure
 
 - `/config` - Configuration files
-- `/database` - Migrations and class of work with the database
-- `/src` - The main code of the bot
+- `/database` - Migrations and database class
+- `/lang` - Language translation files
+- `/src` - Main bot code
 - `/public` - Entry point
 
-## 👥 For community developers
+## 👥 For Community Developers
 
-You can expand the functionality:
-- Add a notification system
-- Implement an administrative panel
-- Add a rating system
-- Integrate payments for participation
+You can extend the functionality:
+- Add notification system
+- Implement admin panel
+- Add rating system
+- Integrate payment for participation
 
 ## 📄 License
 
-MIT License - free to use and modify, but please indicate the original authorship!
+MIT License - free to use and modify!
